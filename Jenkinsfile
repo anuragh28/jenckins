@@ -2,7 +2,7 @@ pipeline {
     agent any
     environment {
         DOCKER_HUB_CREDENTIALS = 'docker_hub_credentials_id'
-        DOCKER_IMAGE = 'anurag3028/node-docker-app'
+        DOCKER_IMAGE = 'anurag3028/simplejavaapp'
     }
     stages {
         stage('Clone Repository') {
